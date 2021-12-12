@@ -1443,7 +1443,7 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
 if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 if(menusimpel == false){
 listmenu = ``
-sendButMessage(from, {"contentText": `*❒ 「 ӀօӀíԵɑ ҍօԵ MENU 」 ❒*
+kurr.sendMessage(from, {"contentText": `*❒ 「 ӀօӀíԵɑ ҍօԵ MENU 」 ❒*
 _え ${prefix}ownermenu_
 
 _え ${prefix}blmmenu_
@@ -1488,7 +1488,7 @@ _え ${prefix}othermenu_
   }}, MessageType.buttonsMessage,{ quoted: ftrol, sendEphemeral: true, contextInfo:{"forwardingScore":999,"isForwarded":true, "externalAdReply":{"title": `Hai Kak ${pushname}`, "body": `Lolita Botz`, mediaType: 2, "thumbnailUrl": "https://cdn-image.hipwee.com/wp-content/uploads/2021/03/hipwee-gojo_satoru_by_chuutadesu_deb0dr7-fullview-750x422.jpg","previewType": "VIDEO","mediaUrl": `https://youtu.be/dQw4w9WgXcQ`}}})
 }
 else if(menusimpel = true){
-sendButMessage(from, {"contentText": `Hai Kak ${pushname}, ${tampilUcapan}
+kurr.sendMessage(from, {"contentText": `Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`,
