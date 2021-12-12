@@ -16,8 +16,8 @@ COPY package.json .
 RUN npm install -g npm@8.1.3
 RUN npm i
 RUN npm install -g pm2
-RUN npm install -g yt-search
 RUN npm update
 COPY . .
 RUN pm2 save
+RUN npm install yt-search
 CMD ["pm2-runtime", "index.js"]`
