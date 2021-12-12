@@ -1468,7 +1468,7 @@ _え ${prefix}gamemenu_
 _え ${prefix}othermenu_
  `
 kurr.sendMessage(from, {"contentText": `${listmenu}`,
-"buttons": [https://cdn.shopify.com/app-store/listing_images/ba8bf84d0f9ae4222730eca1ab6a980b/icon/COKu9ab0lu8CEAE=.png
+"buttons": [
 {buttonId: `${prefix}owner`, buttonText: {displayText: 'owner'}, type: 1},
 {buttonId: `${prefix}info`, buttonText: {displayText: 'SewaBot'}, type: 1},
 {buttonId: `${prefix}store`, buttonText: {displayText: 'store bot'}, type: 1}],
@@ -1493,7 +1493,7 @@ Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
 kurr.sendMessage(from, {"contentText": `${fill}`,
-"buttons": [https://cdn.shopify.com/app-store/listing_images/ba8bf84d0f9ae4222730eca1ab6a980b/icon/COKu9ab0lu8CEAE=.png
+"buttons": [
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: 'allmenu'}, type: 1},
 {buttonId: `${prefix}info`, buttonText: {displayText: 'SewaBot'}, type: 1},
 {buttonId: `${prefix}store`, buttonText: {displayText: 'store bot'}, type: 1}],
