@@ -1,7 +1,7 @@
 {
-  "name": "KurrXd",
-  "version": "0.0.1",
-  "description": "KurrXd",
+  "name": "lolita-v6",
+  "version": "6.0.0",
+  "description": "whatsapp bot",
   "main": "node index",
   "directories": {
     "lib": "lib"
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "KurrXd",
+  "author": "Tritoapriansyah",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.3",
