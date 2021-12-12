@@ -1472,7 +1472,7 @@ kurr.sendMessage(from, {"contentText": `${listmenu}`,
 {buttonId: `${prefix}owner`, buttonText: {displayText: 'owner'}, type: 1},
 {buttonId: `${prefix}info`, buttonText: {displayText: 'SewaBot'}, type: 1},
 {buttonId: `${prefix}store`, buttonText: {displayText: 'store bot'}, type: 1}],
-("headerType": "DOCUMENT", "documentMessage": {
+"headerType": "DOCUMENT", "documentMessage": {
             "url": "https://mmg.whatsapp.net/d/f/Ano5cGYOFQnC51uJaqGBWiCrSJH1aDCi8-YPQMMb1N1y.enc",
             "mimetype": "application/pdf",
             "title": "${pushname}.pdf", // nama.pdf
@@ -1497,7 +1497,7 @@ kurr.sendMessage(from, {"contentText": `${fill}`,
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: 'allmenu'}, type: 1},
 {buttonId: `${prefix}info`, buttonText: {displayText: 'SewaBot'}, type: 1},
 {buttonId: `${prefix}store`, buttonText: {displayText: 'store bot'}, type: 1}],
-("headerType": "DOCUMENT", "documentMessage": {
+"headerType": "DOCUMENT", "documentMessage": {
             "url": "https://mmg.whatsapp.net/d/f/Ano5cGYOFQnC51uJaqGBWiCrSJH1aDCi8-YPQMMb1N1y.enc",
             "mimetype": "application/pdf",
             "title": "${pushname}.pdf", // nama.pdf
